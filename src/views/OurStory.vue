@@ -23,7 +23,7 @@
             </p>
           </div>
           <div class="moment-image">
-            <img src="../assets/couple_image2.jpg" alt="Our first date" />
+            <img src="../assets/meretandjames_burlington.jpeg" alt="Our first date" />
           </div>
         </div>
   
@@ -35,7 +35,7 @@
             </p>
           </div>
           <div class="moment-image">
-            <img src="../assets/couple_image3.jpg" alt="The proposal" />
+            <img src="../assets/meretandjames_burlington.jpeg" alt="The proposal" />
           </div>
         </div>
       </section>
