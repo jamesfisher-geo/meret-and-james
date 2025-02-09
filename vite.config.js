@@ -1,10 +1,8 @@
 import { fileURLToPath, URL } from 'node:url'
-
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   base: '/meret-and-james/',
   plugins: [
@@ -13,23 +11,16 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
-      'vue': 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+      '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  server: {
-    headers: {
-      'Cross-Origin-Opener-Policy': 'same-origin',
-      'Cross-Origin-Embedder-Policy': 'require-corp',
-    },
-  },
   build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
     rollupOptions: {
-      external: ['vue'],
       output: {
-        globals: {
-          vue: 'Vue'
-        }
+        manualChunks: undefined
       }
     }
   }
