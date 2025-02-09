@@ -1,16 +1,28 @@
 <template>
   <div :class="['nav-container', { homepage: isHomePage }]">
     <div class="name-and-nav" :class="{ homepage: isHomePage }">
-      <div class="name-text" :class="{ homepage: isHomePage }">James A. Fisher</div>
+      <div class="header-content" :class="{ homepage: isHomePage }">
+        <div class="name-text" :class="{ homepage: isHomePage }">Meret & James</div>
+        <template v-if="isHomePage">
+          <div class="couple-image">
+            <img src="../assets/meretandjames_burlington.jpeg" alt="Meret and James" />
+          </div>
+          <div class="subtitle">Celebrate with us</div>
+          <div class="subtitle">Saturday, March 29 2025</div>
+        </template>
+      </div>
+
       <div v-if="!isHomePage" class="menu-toggle" @click="toggleMenu">
         <span></span>
         <span></span>
         <span></span>
       </div>
+      
       <nav :class="['secondary-nav', { 'menu-open': isMenuOpen, homepage: isHomePage }]">
         <RouterLink v-if="!isHomePage" to="/" @click="closeMenu">Home</RouterLink>
-        <RouterLink to="/splats" @click="closeMenu">3-D Journal</RouterLink>
-        <RouterLink to="/contactme" @click="closeMenu">Contact Me</RouterLink>
+        <RouterLink to="/details" @click="closeMenu">Details</RouterLink>
+        <RouterLink to="/ourstory" @click="closeMenu">Our Story</RouterLink>
+        <RouterLink to="/rsvp" @click="closeMenu">RSVP</RouterLink>
       </nav>
     </div>
   </div>
@@ -46,10 +58,48 @@ const closeMenu = () => {
   padding: 10px;
 }
 
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-content.homepage {
+  margin-bottom: 40px;
+}
+
 .name-text {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+.name-text.homepage {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: var(--color-text);
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.couple-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.couple-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .menu-toggle {
@@ -106,12 +156,7 @@ const closeMenu = () => {
 .name-and-nav.homepage {
   flex-direction: column;
   align-items: center;
-}
-
-.name-text.homepage {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 24px;
+  margin-top: -10vh;
 }
 
 .secondary-nav.homepage {
@@ -123,7 +168,6 @@ const closeMenu = () => {
   display: block;
   padding: 0.5rem 1rem;
   border-left: none;
-  margin: 0.5rem 0;
   text-align: center;
 }
 
@@ -178,6 +222,19 @@ const closeMenu = () => {
     width: 100%;
     padding: 10px 0;
   }
+
+  .name-text.homepage {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .couple-image {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -194,7 +251,11 @@ const closeMenu = () => {
   }
 
   .name-text.homepage {
-    font-size: 32px;
+    font-size: 64px;
+  }
+
+  .subtitle {
+    font-size: 28px;
   }
 }
 </style>

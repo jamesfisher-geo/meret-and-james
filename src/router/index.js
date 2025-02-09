@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import GaussianSplatViewer from '../views/GaussianSplatView.vue';
 
-import ContactMe from '../views/ContactMeView.vue';
+import Details from '../views/Details.vue';
+import OurStory from '../views/OurStory.vue';
+import Rsvp from '../views/Rsvp.vue';
+
 
 
 const router = createRouter({
@@ -12,14 +14,19 @@ const router = createRouter({
       name: 'home',
     },
     {
-      path: '/splats',
-      name: 'splats',
-      component: GaussianSplatViewer
+      path: '/details',
+      name: 'details',
+      component: Details
     },
     {
-      path: '/contactme',
-      name: 'contactme',
-      component: ContactMe
+      path: '/ourstory',
+      name: 'ourstory',
+      component: OurStory
+    },
+    {
+      path: '/rsvp',
+      name: 'rsvp',
+      component: Rsvp
     }
   ]
 })
