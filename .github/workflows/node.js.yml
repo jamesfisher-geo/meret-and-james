@@ -35,6 +35,8 @@ jobs:
         uses: actions/checkout@v4
       - run: npm install
       - run: npm run build
+        env:
+            VITE_BASE_URL: '/meret-and-james/'
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
