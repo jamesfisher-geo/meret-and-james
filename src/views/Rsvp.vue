@@ -2,16 +2,23 @@
     <div class="rsvp-container">
       <h1 class="rsvp-title">RSVP</h1>
       <div class="form-container">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhCLhKV63J1zxGMyvuKiagq5Pv85nnYX-VUdzJHDh5mVlG4w/viewform?embedded=true" width="1280" height="1447" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe 
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfhCLhKV63J1zxGMyvuKiagq5Pv85nnYX-VUdzJHDh5mVlG4w/viewform?embedded=true" 
+          class="google-form"
+          frameborder="0" 
+          marginheight="0" 
+          marginwidth="0">
+          Loading…
+        </iframe>
       </div>
     </div>
   </template>
   
   <style scoped>
   .rsvp-container {
-    max-width: 900px;
+    width: 100%;
     margin: 2rem auto;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
   
   .rsvp-title {
@@ -24,13 +31,11 @@
   
   .form-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
   }
   
   .google-form {
     width: 100%;
-    min-height: 800px;
+    height: 1400px;
     border: none;
   }
   
@@ -41,7 +46,7 @@
     }
   
     .google-form {
-      min-height: 1000px;
+      height: 1600px; /* Increased height for mobile */
     }
   }
   </style>

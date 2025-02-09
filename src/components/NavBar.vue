@@ -8,7 +8,9 @@
             <img src="../assets/meretandjames_burlington.jpeg" alt="Meret and James" />
           </div>
           <div class="subtitle">Celebrate with us</div>
-          <div class="subtitle">Saturday, March 29 2025</div>
+          <div class="subtitle">Saturday, March 29, 2025</div>
+          <div class="subtitle">Brooklyn, New York</div>
+
         </template>
       </div>
 

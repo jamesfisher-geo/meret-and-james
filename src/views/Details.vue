@@ -6,7 +6,7 @@
             <a href="https://dsk-brooklyn.com/">
                 Die Stammkneipe (DSK Brooklyn)
             </a>
-            <p>710 Fulton Street, Fort Greene/ Brooklyn</p>
+            <p>710 Fulton Street, Fort Greene - Brooklyn</p>
             <p class="time-detail">Ceremony and Dinner at 7:00pm</p>
             <p class="time-detail">Reception to follow</p>
           <!-- You might want to add a button or link to maps here -->
@@ -16,7 +16,7 @@
       <section class="details-section">
         <h2 class="section-title">Dress Code</h2>
         <div class="section-content">
-          <p>Semi-Formal / Dressy Casual</p>
+          <p>Dressy Casual</p>
           <p class="dress-suggestion">
             Wear what makes you feel comfortable!
           </p>
@@ -29,14 +29,13 @@
           <h3>Getting Here</h3>
           <div class="travel-option">
             <h4>By Air</h4>
-            <p>The Fort Greene area of Brooklyn is accessible by public tranit from any of the major NY airports (JFK, LaGuardia, or Newark Liberty)</p>
-            <p>Direct flights available from major East Coast cities.</p>
+            <p>The Fort Greene area of Brooklyn is accessible by public transit from any of the major NY airports (JFK, LaGuardia, or Newark Liberty)</p>
           </div>
           <div class="travel-option">
             <h4>By Train</h4>
             <p>From The North:</p>
-            <p>The Metro-North railroad runs on lines to Grand Central Station from New Haven (CT), Waterbury (CT), Danbury (CT), Waasaic (NY), and Poughkeepsie (NY)</p>
-            <p>From Grand Central, the easiest route via the Subway is the Downtown/Brooklyn bound 4/5 train from Grand Central to Atlantic Terminal - Barkleys Center followed by a 6 minute walk. Additionally, the Queens-bound 7 train to Court Square station, followed by the Brooklyn-bound G train to Fulton Street station.</p>
+            <p>The Metro-North railroad runs on lines to Grand Central Station from New Haven (CT), Waterbury (CT), Danbury (CT), Wassaic (NY), and Poughkeepsie (NY)</p>
+            <p>From Grand Central, the easiest route via the Subway is the Downtown/Brooklyn-bound 4/5 train from Grand Central to Atlantic Terminal - Barkleys Center followed by a 6 minute walk. Additionally, the Queens-bound 7 train to Court Square station, followed by the Brooklyn-bound G train to Fulton Street station.</p>
             <p>From The South or West:</p>
             <p>New Jersey Transit operates several lines that route from central and northern New Jersey to Penn Station</p>
             <p>From Penn Station, the easiest route via the Subway is on the Brooklyn C train to Lafayette Ave</p>
