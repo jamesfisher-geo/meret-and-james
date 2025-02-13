@@ -7,11 +7,12 @@
           <div class="moment-content">
             <h2>How We Met</h2>
             <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              Back in 2023, Meret was living in Hamburg, Germany, studying for her master’s in Criminology. She had always been an adventurer, and solo trips were nothing new to her. She had gone on several adventures across Europe, and now had set her sights on a trip to New York City. A place she had dreamed visiting of since she was a kid. “Maybe I could get someone from the city to show me around”, Meret thought, so she downloaded Bumble. One of the first people the app presented to her was James. On his profile, he stated that he enjoys trying different foods, and that he loves soccer - it was a match made in heaven. Meret immediately messaged.
+
             </p>
           </div>
           <div class="moment-image">
-            <img src="../assets/meretandjames_burlington.jpeg" alt="Meret and James at DSK" />
+            <img src="../assets/first_date.jpeg" alt="Meret and James at DSK" />
           </div>
         </div>
   
@@ -19,25 +20,51 @@
           <div class="moment-content">
             <h2>First Date</h2>
             <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              After literal months of talking online, Meret finally landed in New York City. James had been so excited for this moment. Wasting no time, he arranged to meet Meret for a beer at a charming German beer garden called “Die Stammkneipe” ("the local pub" in English). There was an instant spark when James showed Meret places he’d been to on Google maps, explained rock formations and asked about her favorite soccer teams. What began as a simple drink evolved into an evening-long adventure: Walking through Fort Greene, admiring Manhattan's skyline from Brooklyn Bridge Park, and wandering among the brownstones of Brooklyn Heights well into the night. They spent hours sharing stories, talking about their families, and getting to know each other.
             </p>
           </div>
           <div class="moment-image">
-            <img src="../assets/meretandjames_burlington.jpeg" alt="Our first date" />
+            <img src="../assets/first_date_2.jpeg" alt="Our first date" />
           </div>
         </div>
   
         <div class="story-moment">
           <div class="moment-content">
-            <h2>The Proposal</h2>
+            <h2>The First Week</h2>
             <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Meret and James shared an incredible week together. While visiting the Metropolitan Museum of Art, they discovered their shared passion for art and archaeology. Meret tried her first birria taco and was instantly hooked. They spent their days taking long walks in Central Park, exploring the Brooklyn Botanic Garden, riding the ferry, playing soccer together, and enjoying evenings in Fort Greene Park and Prospect Park. When James was briefly out of town, Meret even joined his friends for bar trivia night. This first week together sparked a deep relationship built on friendship.
             </p>
           </div>
           <div class="moment-image">
-            <img src="../assets/meretandjames_burlington.jpeg" alt="The proposal" />
+            <img src="../assets/nyc.jpg" alt="The proposal" />
           </div>
         </div>
+
+        <div class="story-moment reverse">
+          <div class="moment-content">
+            <h2>Travel Adventures</h2>
+            <p>
+              When Meret inevitably returned to Hamburg, the pair kept in touch. Through video calls, quick chats, and long talks, their relationship continued to grow. Then, an amazing opportunity presented itself when Meret was invited to Athens, Greece for an international Criminology conference. Without any concerns, she asked James to be her travel partner. Together, they not only had a wonderful time in Athens, but also in Hamburg, where James visited Meret soon after. That December in Hamburg, Meret and James decided to officially date, despite living on different continents. Since then, they have traveled to many interesting places, including Weimar, Lisbon, Porto, Berlin, Potsdam, The Finger Lakes, and San Diego.
+            </p>
+          </div>
+          <div class="moment-image">
+            <img src="../assets/acropolis.jpg" alt="Our first date" />
+          </div>
+        </div>
+
+        <div class="story-moment">
+          <div class="moment-content">
+            <h2>Since then</h2>
+            <p>
+              In 2024, Meret began a graduate program in Albany, NY, and suddenly the distance between James and her shrank. They spent weekends and school breaks exploring upstate towns and trying new dumpling shops in NYC. On Sunday, February 2, James proposed along the banks of the Hudson River during a trip to Cold Spring, NY. Meret and James are delighted to celebrate the beginning of their marriage and the continuation of their partnership surrounded by friends and family. We hope you can join us on March 29!
+
+            </p>
+          </div>
+          <div class="moment-image">
+            <img src="../assets/proposal.jpg" alt="The proposal" />
+          </div>
+        </div>
+
       </section>
     </div>
   </template>

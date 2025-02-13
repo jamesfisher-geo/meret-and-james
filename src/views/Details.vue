@@ -1,6 +1,11 @@
 <template>
     <div class="details-container">
       <section class="details-section">
+        <div class="venue-image">
+            <img src="../assets/DSK.jpg" alt="Die Stammkneipe Brooklyn Venue" 
+                 style="width: 100%; height: 350px; object-fit: cover; object-position: center bottom;"
+                 class="img-fluid"/>
+        </div>
         <h2 class="section-title">Location</h2>
         <div class="section-content">
             <a href="https://dsk-brooklyn.com/">
@@ -9,7 +14,6 @@
             <p>710 Fulton Street, Fort Greene - Brooklyn</p>
             <p class="time-detail">Ceremony and Dinner at 7:00pm</p>
             <p class="time-detail">Reception to follow</p>
-          <!-- You might want to add a button or link to maps here -->
         </div>
       </section>
   
