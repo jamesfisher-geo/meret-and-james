@@ -2,7 +2,7 @@
     <div class="details-container">
       <section class="details-section">
         <div class="venue-image">
-            <img src="../assets/DSK.jpg" alt="Die Stammkneipe Brooklyn Venue" 
+            <img src="../assets/dsk_outside.jpeg" alt="Die Stammkneipe Brooklyn Venue" 
                  style="width: 100%; height: 350px; object-fit: cover; object-position: center bottom;"
                  class="img-fluid"/>
         </div>
@@ -14,6 +14,25 @@
             <p>710 Fulton Street, Fort Greene - Brooklyn</p>
             <p class="time-detail">Ceremony and Dinner at 7:00pm</p>
             <p class="time-detail">Reception to follow</p>
+        </div>
+        <img src="../assets/dsk_inside.jpeg" alt="Die Stammkneipe Brooklyn Venue" 
+                 style="width: 100%; height: 350px; object-fit: cover; object-position: center bottom;"
+                 class="img-fluid"/>
+      </section>
+
+      <section class="details-section">
+        <h2 class="section-title">Accommodations</h2>
+        <div class="section-content">
+          <div class="hotel-block">
+            <h3>Hampton Inn Brooklyn/Downtown</h3>
+            <p>125 Flatbush Ave Extension Brooklyn, New York 11201 USA</p>
+            <p class="hotel-rate">Room block rate: $229/night</p>
+            <p class="hotel-rate">Cut-off date: February 28, 2025</p>
+            <p>Book a room at the group rate: <a href="https://www.hilton.com/en/attend-my-event/nycbohx-93l-4c081c88-7342-40bf-9fc0-2c3a9d57f6a3/">here</a></p>
+            <p>The group rate is available for one or two nights. Two nights is the default. You can edit your stay to one night</p>
+            <p>Book by phone at (718) 875-8800 with the group code <strong>93L</strong></p>
+            
+          </div>
         </div>
       </section>
   
@@ -53,26 +72,7 @@
         </div>
       </section>
   
-      <section class="details-section">
-        <h2 class="section-title">Hotels</h2>
-        <div class="section-content">
-          <div class="hotel-block">
-            <h3>Holiday Inn -  Downtown Brooklyn</h3>
-            <p>300 Schermerhorn Street, Brooklyn, NY</p>
-            <!-- <p class="hotel-rate">Room block rate: $229/night</p>
-            <p>Block code: MERETJAMES2025</p>
-            <p>Cut-off date: February 28, 2025</p> -->
-          </div>
-          
-          <div class="hotel-block">
-            <h3>Fairfield Inn & Suites New York Brooklyn</h3>
-            <p>181 3rd Ave, Brooklyn, NY 11217</p>
-            <!-- <p class="hotel-rate">Room block rate: $199/night</p>
-            <p>Block code: MJ2025WEDDING</p>
-            <p>Cut-off date: February 28, 2025</p> -->
-          </div>
-        </div>
-      </section>
+      
     </div>
   </template>
   
@@ -153,10 +153,10 @@
   }
 
   a {
+    display: block;
     font-size: 1.2rem;
-    margin-bottom: 1rem;
     color: var(--color-text);
-  }
+}
   
   @media (max-width: 768px) {
     .details-container {
