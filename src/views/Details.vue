@@ -26,10 +26,9 @@
           <div class="hotel-block">
             <h3>Hampton Inn Brooklyn/Downtown</h3>
             <p>125 Flatbush Ave Extension Brooklyn, New York 11201 USA</p>
-            <p class="hotel-rate">Room block rate: $229/night</p>
+            <p>The group rate is available for one or two nights. Two nights is the default. You can edit your stay to one night</p>
             <p class="hotel-rate">Cut-off date: February 28, 2025</p>
             <p>Book a room at the group rate: <a href="https://www.hilton.com/en/attend-my-event/nycbohx-93l-4c081c88-7342-40bf-9fc0-2c3a9d57f6a3/">here</a></p>
-            <p>The group rate is available for one or two nights. Two nights is the default. You can edit your stay to one night</p>
             <p>Book by phone at (718) 875-8800 with the group code <strong>93L</strong></p>
             
           </div>
