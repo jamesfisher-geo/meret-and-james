@@ -7,7 +7,7 @@
           <div class="moment-content">
             <h2>How We Met</h2>
             <p>
-              Back in 2023, Meret was living in Hamburg, Germany, studying for her master’s in Criminology. She had always been an adventurer, and solo trips were nothing new to her. She had gone on several adventures across Europe, and now had set her sights on a trip to New York City. A place she had dreamed visiting of since she was a kid. “Maybe I could get someone from the city to show me around”, Meret thought, so she downloaded Bumble. One of the first people the app presented to her was James. On his profile, he stated that he enjoys trying different foods, and that he loves soccer - it was a match made in heaven. Meret immediately messaged.
+              Back in 2023, Meret was living in Hamburg, Germany, studying for her master’s in Criminology. She had always been an adventurer, and solo trips were nothing new to her. She had gone on several adventures across Europe, and now had set her sights on a trip to New York City. A place she had dreamed of visiting of since she was a kid. “Maybe I could get someone from the city to show me around”, Meret thought, so she downloaded Bumble. One of the first people the app presented to her was James. On his profile, he stated that he enjoys trying different foods, and that he loves soccer - it was a match made in heaven. Meret immediately messaged.
 
             </p>
           </div>
